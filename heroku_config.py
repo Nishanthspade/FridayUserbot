@@ -20,7 +20,7 @@ class Var(object):
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", fridaybof)
     TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
     TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
     DOWNLOAD_PFP_URL_CLOCK = os.environ.get("DOWNLOAD_PFP_URL_CLOCK", None)
